@@ -42,7 +42,7 @@ struct DetailView: View {
                         isSettingsPresented.toggle()
                     }
                     .sheet(isPresented: $isSettingsPresented, content: {
-                        //SettingsView()
+                        SettingsView()
                     })
                 
                 Spacer()
