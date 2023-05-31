@@ -13,6 +13,10 @@
 		8DD129DC2A27788D007ECCBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DD129DB2A27788D007ECCBB /* Assets.xcassets */; };
 		8DD129DF2A27788D007ECCBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DD129DE2A27788D007ECCBB /* Preview Assets.xcassets */; };
 		8DD129EC2A277CD3007ECCBB /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD129EB2A277CD2007ECCBB /* Note.swift */; };
+		8DD129EE2A27BEF6007ECCBB /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD129ED2A27BEF6007ECCBB /* DetailView.swift */; };
+		8DD129F02A27BF77007ECCBB /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD129EF2A27BF77007ECCBB /* HeaderView.swift */; };
+		8DD129F32A27C0D5007ECCBB /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD129F22A27C0D5007ECCBB /* CreditsView.swift */; };
+		8DD129F52A27C4CA007ECCBB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD129F42A27C4CA007ECCBB /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		8DD129DB2A27788D007ECCBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DD129DE2A27788D007ECCBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8DD129EB2A277CD2007ECCBB /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		8DD129ED2A27BEF6007ECCBB /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		8DD129EF2A27BF77007ECCBB /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		8DD129F22A27C0D5007ECCBB /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		8DD129F42A27C4CA007ECCBB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,7 @@
 				8DD129EA2A277C9A007ECCBB /* Model */,
 				8DD129D72A277889007ECCBB /* NotesApp.swift */,
 				8DD129E92A277C93007ECCBB /* View */,
+				8DD129F12A27BF7E007ECCBB /* Component */,
 				8DD129DB2A27788D007ECCBB /* Assets.xcassets */,
 				8DD129DD2A27788D007ECCBB /* Preview Content */,
 			);
@@ -101,6 +110,9 @@
 			isa = PBXGroup;
 			children = (
 				8DD129D92A277889007ECCBB /* ContentView.swift */,
+				8DD129ED2A27BEF6007ECCBB /* DetailView.swift */,
+				8DD129F22A27C0D5007ECCBB /* CreditsView.swift */,
+				8DD129F42A27C4CA007ECCBB /* SettingsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -111,6 +123,14 @@
 				8DD129EB2A277CD2007ECCBB /* Note.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		8DD129F12A27BF7E007ECCBB /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				8DD129EF2A27BF77007ECCBB /* HeaderView.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,7 +231,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DD129F52A27C4CA007ECCBB /* SettingsView.swift in Sources */,
+				8DD129F02A27BF77007ECCBB /* HeaderView.swift in Sources */,
+				8DD129F32A27C0D5007ECCBB /* CreditsView.swift in Sources */,
 				8DD129DA2A277889007ECCBB /* ContentView.swift in Sources */,
+				8DD129EE2A27BEF6007ECCBB /* DetailView.swift in Sources */,
 				8DD129D82A277889007ECCBB /* NotesApp.swift in Sources */,
 				8DD129EC2A277CD3007ECCBB /* Note.swift in Sources */,
 			);
